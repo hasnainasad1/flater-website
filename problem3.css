@@ -1,0 +1,200 @@
+h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #1B1C57;
+    }
+    span{
+        
+    width: 146px;
+    height: 21px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #E55E2E;
+    
+    
+    }
+    h1{
+      
+       padding-bottom: 2.5rem;
+       padding-top: 1.5rem;
+        font-family: 'Libre Bodoni';
+        font-style: normal;
+        text-transform: uppercase;
+        color: #000000;
+        
+    }
+    h3{
+      
+        font-family: 'Libre Bodoni';
+        font-style: normal;
+        color: #272042;
+    }
+    p{
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+      
+        
+        color: #8B8BA5;
+    }
+
+
+.fluid-section{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.services{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 30px;
+overflow: hidden;
+}
+.service{
+    width: 100%;
+    padding: 15px;
+}
+.navbar-expand-lg{
+    padding: 0px;
+    margin: 0px;
+}
+.service img{
+width: 100%;
+}
+#ua1{
+    margin-top: 35px;
+}
+.background{
+    background-image:url(./inam/Rectangle\ 2415.png);
+    width: 100%;
+    height: 200px;
+}
+.background1{
+    background-image:url(./inam//Rectangle\ 2415\ \(1\).png);
+    width: 100%;
+    height: 200px;
+}
+.background2{
+    background-image:url(./inam/Rectangle\ 2415\ \(2\).png);
+    width: 100%;
+    height: 200px;
+}
+.background3{
+    background-image:url(./inam/Rectangle\ 2415\ \(3\).png);
+    width: 100%;
+    height: 200px;
+}
+.background4{
+    background-image:url(./inam/Rectangle\ 2415\ \(4\).png);
+    width: 100%;
+    height: 200px;
+}
+.background5{
+    background-image:url(./inam/Rectangle\ 2415\ \(5\).png);
+    width: 100%;
+    height: 200px;
+}
+.background6{
+    background-image:url(./inam/Rectangle\ 2415\ \(6\).png);
+    width: 100%;
+    height: 200px;
+}
+.background7{
+    background-image:url(./inam/Rectangle\ 2415\ \(7\).png);
+    width: 100%;
+    height: 200px;
+}
+.background button{
+    margin-top: 9px;
+    float: right;
+    margin-right: 5px;
+    border: none;
+}
+.background1 button{
+    margin-top: 9px;
+    float: right;
+    border: none;
+    margin-right: 5px;
+}
+.background2 button{
+    margin-top: 9px;
+    float: right;
+    border: none;
+    margin-right: 5px;
+}
+.background3 button{
+    margin-top: 9px;
+    float: right;
+    margin-right: 5px;
+    border: none;
+}
+.background4 button{
+    margin-top: 9px;
+    float: right;
+    margin-right: 5px;
+    border: none;
+}
+.background5 button{
+    margin-top: 9px;
+    float: right;
+    border: none;
+    margin-right: 5px;
+}
+.background6 button{
+    margin-top: 9px;
+    float: right;
+    margin-right: 5px;
+}
+.background7 button{
+    margin-top: 9px;
+    float: right;
+    margin-right: 5px;
+    border: none;
+}
+.lastissue{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#bbt{
+    padding-top: 2px;
+    border: none;
+}
+.click-me{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 104px;
+    height: 36px;
+    background: #E55E2E;
+    /* box-shadow: 0px 6px 12px -6px #E55E2E, 0px 8px 24px -4px rgba(229, 94, 46, 0.15); */
+    border-radius: 67px;
+}
+.top-btn{
+    border-radius: 40px;
+    border-style: none;
+    /* width: 81px; */
+    /* height: 21px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 10px;
+    background: #E55E2E;
+}
+button{
+    border: none;
+}

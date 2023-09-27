@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#img {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* margin-top: -5rem; */
+
+
+}
+
+.img img {
+    width: 225px;
+    height: 324px;
+    left: calc(50% - 322px/2 + 166px);
+    top: 155px;
+
+    /* background: url(IMG_0964.jpg), #C4C4C4; */
+}
+
+/* .img-gall {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+} */
+
+.img-gall h6 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    /* padding-top: -3rem; */
+
+    /* primary */
+
+    color: #E55E2E;
+}
+
+.img-gall h2 {
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Color 3 */
+
+    color: #000000;
+}
+
+.gall-content h5 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    /* margin-top: -3rem; */
+
+    /* primary */
+
+    color: #E55E2E;
+}
+
+
+.gall-content h2 {
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    /* or 72px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Color 3 */
+
+    color: #000000;
+
+}
+
+.rectangle-img img{
+    /* position: relative; */
+    /* margin-top: -3rem; */
+    width: 1124.56px;
+    height: 683.76px;
+}
+
+
+.rectangle-img i{
+    position: absolute;
+ 
+    left: 44%;
+    top: 1300px;
+    border-radius: 20px;
+  
+    display: flex;
+    justify-content: center;
+    
+}
+
+#polygon-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 20px;
+   
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    
+#img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10rem;
+   
+    
+
+}
+
+.gall-content h6{
+    margin-top: 5rem;
+    font-size: 14px;
+}
+.gall-content h2{
+    font-size: 30px;
+
+
+}
+.gallery-content-two{
+    margin-top: 10rem;
+}
+
+.rectangle-img img{
+    /* position: relative; */
+    /* margin-top: -3rem; */
+    width: 699.56px;
+    height: 683.76px;
+}
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    #img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30rem;
+
+    }
+    .gallery-content-two{
+        margin-top: 33rem ;
+    }
+
+    .rectangle-img img{
+        /* width: 470px; */
+        /* height: 400px; */
+        width: 100%;
+    }   
+
+    .rectangle-img i{
+        position: absolute;
+     
+        left: 35%;
+        top: 1666px;
+        border-radius: 20px;
+      
+       
+    }
+
+    
+}
